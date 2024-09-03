@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { getEmployees } from '../../api/api'; // Ensure this is correctly exported
-import { getProfile } from '../../api/api';
+
 
 const EmployeeDashboard = () => {
     const token = localStorage.getItem('token');
